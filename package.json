@@ -1,0 +1,32 @@
+{
+  "name": "modal-bd",
+  "version": "1.0.1",
+  "description": "modal package for OpenClassrooms react course p14 from benoit desnos",
+  "type": "module",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "scripts": {
+    "test": "test",
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenoitDesnos/modal-bd.git"
+  },
+  "keywords": [
+    "modal",
+    "bd"
+  ],
+  "author": "benoit desnos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenoitDesnos/modal-bd/issues"
+  },
+  "homepage": "https://github.com/BenoitDesnos/modal-bd#readme",
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  }
+}
